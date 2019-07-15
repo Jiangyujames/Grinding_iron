@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+    BrowserRouter as Router,
+    Route,
+    NavLink
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+} from 'react-router-dom'
+
+import router from './router'
+import  GuardRoute from './components/GuardRoute'
+class App extends React.Component{
+    render(){
+        return (
+            <div className="App">
+                <Router>
+                    {
+                        router.map((v,i)=>{
+                            return(
+                                    <Route key={i} path={v.path} exact={v.exact} render={()=><GuardRoute {...v}></GuardRoute>}></Route>
+                                   )
+                        })
+                    }
+                </Router>
+            </div>
+        );
+    }
+
 }
 
 export default App;

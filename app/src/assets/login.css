@@ -1,0 +1,51 @@
+.top{
+    width:100%;
+    height:2.2rem;
+    background: #0086b3;
+    line-height: 2.2rem;
+    text-align: left;
+    font-size:0.6rem;
+    color: white;
+}
+.top span{
+    display: inline-block;
+    padding-left:1rem ;
+    padding-right:5rem ;
+    display: inline-block;
+
+}
+.content{
+    width: 100%;
+    padding: 0 0.8rem;
+    box-sizing: border-box;
+
+}
+.content p{
+    width:100%;
+    border-bottom: 1px solid #f5f2f0;
+    overflow: hidden;
+
+}
+.content input{
+    border:none;
+    margin: 1rem 0;
+    float: left;
+    font-size: 1rem;
+    outline:none;
+}
+.content button{
+    margin-top:0.5rem ;
+    border-radius: 0.8rem;
+    outline: none;
+    background: #0086b3;
+    color:#f1f1f1;
+    font-size:0.2rem;
+    padding: 0.3rem;
+}
+.content>:last-child{
+    width:15rem;
+    height: 2.5rem;
+    color:#f1f1f1;
+    font-size: 1rem;
+
+}

@@ -1,0 +1,30 @@
+.my_top{
+    background: url("https://pic.motieimg.com/web-wechat/dist/static/img/i-cover.0a73f86.jpg") no-repeat;
+    background-size:cover ;
+    width: 100%;
+    height:6rem;
+    border-bottom: 2px solid #f1f1f1;
+    box-sizing: border-box;
+}
+.my_top img{
+    width:4rem;
+    height:4rem;
+    float: left;
+    padding: 1rem;
+}
+.top-L{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    width:65%;
+    line-height: 6rem;
+}
+ul li{
+    list-style: none;
+}
+.my_conent{
+box-sizing: border-box;
+
+}
+
+
