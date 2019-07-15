@@ -1,0 +1,42 @@
+﻿安装好的模块:
+**************Node**************
+express
+body-parser
+mongodb
+
+**************React*************
+axios
+
+redux
+react-redux
+react-router-dom
+************文件夹**************
+components：公共组件
+css：自己页面的样式
+route：路由
+store：仓库状态
+tools：工具类
+Views:JS文件
+************JS文件*************
+Boys：男孩
+Girl：女孩
+Publish:出版
+Search：搜索
+Complete:全本
+Type：分类
+Free：免费
+Rank：排行
+Home:精选
+Login：登录
+My：我的
+BookList：书架
+Details：详情
+
+
+
+
+
+桂文静:   书架           排行
+赵琳凤：登录/注册  分类   底部导航组件
+姜育龙：首页           全本
+张莉敏：详情           免费

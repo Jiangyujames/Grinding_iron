@@ -1,0 +1,1 @@
+export const CHANGE_TYPELIST="CHANGE_TYPELIST"
