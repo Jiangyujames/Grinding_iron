@@ -15,6 +15,7 @@ class App extends React.Component{
                 <Router>
                     {
                         router.map((v,i)=>{
+                            console.log(v)
                             return(
                                     <Route key={i} path={v.path} exact={v.exact} render={()=><GuardRoute {...v}></GuardRoute>}></Route>
                                    )
@@ -22,7 +23,7 @@ class App extends React.Component{
                     }
                 </Router>
             </div>
-        );
+        )
     }
 
 }

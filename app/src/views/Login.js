@@ -38,7 +38,7 @@ class Login extends React.Component{
                 <div className={"top"}>
                     <span onClick={()=>{
                         //console.log(this.props.history,99998888888888888)
-                        this.props.history.push('/')
+                        this.props.history.push('/Boys')
                     }} className={"iconfont icon-xuanzesanjiao-xiangzuo"}></span>
                      手机快捷登录/注册
                 </div>
@@ -46,7 +46,7 @@ class Login extends React.Component{
                     <p>
                         <input type="text" placeholder={"输入手机号码"} ref={"userPhone"}/>
                     </p>
-                    <p>
+                    <p className={"msg"}>
                         <input type="text" placeholder={"输入短信验证码"} ref={"codes"}/>
                         <button onClick={this.sendCode.bind(this)}>发送验证码</button>
                     </p>

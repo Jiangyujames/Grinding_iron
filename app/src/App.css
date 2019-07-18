@@ -1,6 +1,6 @@
 @import "./font/iconfont.css";
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 .App nav{
   display: flex;

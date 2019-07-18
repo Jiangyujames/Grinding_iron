@@ -1,3 +1,13 @@
+ul,li,ol,dl,dt,dd,body,p,h1,h2,h3,h4,h5,h6,header,section,article,aside,nav,footer{
+    margin:0;padding:0;
+}
+img,iframe{border:none;}
+a{text-decoration: none;color:#333;}
+ul,li,ol{list-style:none;}
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
 .my_top{
     background: url("https://pic.motieimg.com/web-wechat/dist/static/img/i-cover.0a73f86.jpg") no-repeat;
     background-size:cover ;
@@ -22,9 +32,81 @@
 ul li{
     list-style: none;
 }
-.my_conent{
-box-sizing: border-box;
+.my-conent{
+    overflow: hidden;
+    width: 100%;
+}
+.my-conent p{
+    width:100%;
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+    height:3rem;
+    line-height: 3rem;
+}
+p span{
+    float: left;
+    display: inline-block;
+    margin: 0 0.5rem;
+    color:red;
+    font-size: 1rem;
+}
+.my-conent ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.my-conent li{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    color:#999
 
 }
+.btn{
+    text-align: center;
+    padding: 1rem ;
+    box-sizing: border-box;
+    height: 3rem;
+    line-height: 3rem;
+
+}
+button{
+    background-color: #ee5048;
+    font-size: .42667rem;
+    color: #fff;
+    line-height: 1.5rem;
+    text-align: center;
+    border-radius: .5rem;
+    outline: none;
+    width: 90%;
+}
+.my-conent{
+    overflow: hidden;
+    padding-bottom:1rem;
+    border-bottom: 5px solid #f1f1f1;
+}
+.list1{
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding:0 2rem 0 0.5rem;
+    color:#333;
+    font-size: 1rem;
+    border-bottom: 1px solid #f1f1f1;
+}
+.list1>b span:first-child{
+    color: #ee5048;
+    display: inline-block;
+    margin-right: 1rem;
+}
+.btns{
+    font-size: 1rem;
+    color: #c29b61;
+    padding-top:0.8rem ;
+    text-align: center;
+}
+
 
 
