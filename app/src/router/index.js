@@ -1,4 +1,3 @@
-import Home from '../views/Home.js';
 import Login from '../views/Login.js';
 import My from '../views/My.js';
 import BookList from '../views/BookList.js';
@@ -16,7 +15,7 @@ export default [
     {
       path:"/booklist",
       component:BookList,
-      exact:false,
+        exact:true,
         isChecked:true,
         nameStr:"书架",
         meta:{
@@ -26,7 +25,7 @@ export default [
     },
     {
         path:"/",
-        component:Home,
+        component:Boys,
         exact:true,
         isChecked:false,
         nameStr:"首页",
@@ -53,7 +52,8 @@ export default [
         isChecked:false,
         nameStr:"登录",
         meta:{
-            isfooter:false
+            isfooter:false,
+            isHeader:false
         }
     },
     {
@@ -63,7 +63,8 @@ export default [
         isChecked:false,
         nameStr:"关于我们",
         meta:{
-            isfooter:false
+            isfooter:false,
+            isHeader:false
         }
     },
     {
@@ -73,18 +74,8 @@ export default [
         isChecked:false,
         nameStr:"个人页面",
         meta:{
-            isfooter:false
-        }
-    },
-    {
-        path:"/Boys",
-        exact:false,
-        isChecked:false,
-        component:Boys,
-        nameStr:"男生",
-        meta:{
-            isfooter:true,
-            isHeader:true
+            isfooter:false,
+            isHeader:false
         }
     },
     {
@@ -110,7 +101,7 @@ export default [
         }
     },
     {
-        path:"/Type",
+        path:"/Type/:group/:siteId/:rankType/:pageSize",
         exact:false,
         isChecked:false,
         component:Type,

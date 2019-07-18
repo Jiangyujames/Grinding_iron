@@ -3,8 +3,8 @@ import Girl from "../views/Girl";
 import Publish from "../views/Publish";
 export default [
     {
-        path:"/boys",
-        exact:false,
+        path:"/",
+        exact:true,
         isChecked:false,
         component:Boys,
         nameStr:"男生",

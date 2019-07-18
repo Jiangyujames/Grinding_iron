@@ -38,14 +38,14 @@ class Boys extends React.Component{
                 el: '.swiper-pagination'
             }
         })
-        axios.get("/motie/detail?group=3&siteId=2&rankType=10&pageSize=3")
+        axios.get("/motie/ranking/detail?group=3&siteId=2&rankType=10&pageSize=3")
             .then(({data}) => {
                 this.setState({
                     bookList: data.data
                 })
                 console.log(11111,this.state.bookList)
             })
-        axios.get("/motie/detail?group=3&siteId=4&rankType=10&pageSize=3")
+        axios.get("/motie/ranking/detail?group=3&siteId=4&rankType=10&pageSize=3")
             .then(({data})=>{
                 console.log(110,data);
                 this.setState({
@@ -79,13 +79,13 @@ class Boys extends React.Component{
                     </div>
                     <p className="kong"></p>
                     <div className="navigation">
-                        <Router>
-                            <NavLink className="navviga" to={"/Type"} onClick={()=>{this.props.history.push("/Type")}}><img src={require('../assets/img/lu4.png')}/>分类</NavLink>
-                            <NavLink className="navviga" to={"/Rank"} onClick={()=>{this.props.history.push("/Rank")}}><img src={require('../assets/img/lu3.png')}/>排行</NavLink>
-                            <NavLink className="navviga" to={"/Complete"} onClick={()=>{this.props.history.push("/Complete")}} ><img src={require('../assets/img/lu2.png')}/>全本</NavLink>
-                            <NavLink className="navviga" to={"/Free"} onClick={()=>{this.props.history.push("/Free")}}><img src={require('../assets/img/lu1.png')}/>免费</NavLink>
-                        </Router>
-                    </div>x
+
+                            <NavLink className="navviga" to={"/Type/1/1/10/10"}><img src={require('../assets/img/lu4.png')}/>分类</NavLink>
+                            <NavLink className="navviga" to={"/Rank"} ><img src={require('../assets/img/lu3.png')}/>排行</NavLink>
+                            <NavLink className="navviga" to={"/Complete"}><img src={require('../assets/img/lu2.png')}/>全本</NavLink>
+                            <NavLink className="navviga" to={"/Free"}><img src={require('../assets/img/lu1.png')}/>免费</NavLink>
+
+                    </div>
                     <p className="kong"></p>
                     <div className="Recommend">
                         <h3 className="hh"><em></em>主编力荐</h3>

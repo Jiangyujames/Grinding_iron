@@ -38,7 +38,7 @@ class Login extends React.Component{
                 <div className={"top"}>
                     <span onClick={()=>{
                         //console.log(this.props.history,99998888888888888)
-                        this.props.history.push('/Boys')
+                        this.props.history.push('/')
                     }} className={"iconfont icon-xuanzesanjiao-xiangzuo"}></span>
                      手机快捷登录/注册
                 </div>
