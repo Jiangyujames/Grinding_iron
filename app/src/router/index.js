@@ -10,6 +10,22 @@ import Type from "../views/Type";
 import Rank from "../views/Rank";
 import Complete from "../views/Complete";
 import Free from "../views/Free";
+import sellWell from "../views/sellWell.js"
+import click from "../views/click.js"
+import reward from "../views/reward.js"
+import rankBoys from "../views/rankBoys.js"
+import rankGirl from "../views/rankGirl.js"
+import rankCompelete from "../views/rankCompelete.js"
+import clickGirl from "../views/clickGirl.js"
+import recommend from "../views/recommend.js"
+import newBook from "../views/newBook.js"
+import update from "../views/update.js"
+import hotReading from "../views/hotReading.js"
+import wealth from "../views/wealth.js"
+import review from "../views/review.js"
+import sellGirl from "../views/sellGirl.js"
+import sellComplete from "../views/sellComplete.js"
+
 
 export default [
     {
@@ -142,6 +158,156 @@ export default [
         meta:{
             isfooter:true,
             isHeader:true
+        }
+    },
+    {
+        path:"/sellWell",
+        component:sellWell,
+        exact:false,
+        isChecked:false,
+        nameStr:"热销榜",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/click",
+        component:click,
+        exact:false,
+        isChecked:false,
+        nameStr:"点击榜",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/reward",
+        component:reward,
+        exact:false,
+        isChecked:false,
+        nameStr:"打赏榜",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/rankBoys",
+        component:rankBoys,
+        exact:false,
+        isChecked:false,
+        nameStr:"男生",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/rankGirl",
+        component:rankGirl,
+        exact:false,
+        isChecked:false,
+        nameStr:"女生",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/rankCompelete",
+        component:rankCompelete,
+        exact:false,
+        isChecked:false,
+        nameStr:"全本",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/recommend",
+        component:recommend,
+        exact:false,
+        isChecked:false,
+        nameStr:"推荐榜",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/newBook",
+        component:newBook,
+        exact:false,
+        isChecked:false,
+        nameStr:"新书榜",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/update",
+        component:update,
+        exact:false,
+        isChecked:false,
+        nameStr:"更新榜",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/hotReading",
+        component:hotReading,
+        exact:false,
+        isChecked:false,
+        nameStr:"热读榜",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/wealth",
+        component:wealth,
+        exact:false,
+        isChecked:false,
+        nameStr:"财神榜",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/review",
+        component:review,
+        exact:false,
+        isChecked:false,
+        nameStr:"书评榜",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/sellGirl",
+        component:sellGirl,
+        exact:false,
+        isChecked:false,
+        nameStr:"热销榜",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/clickGirl",
+        component:clickGirl,
+        exact:false,
+        isChecked:false,
+        nameStr:"点击榜",
+        meta:{
+            isfooter:false
+        }
+    },
+    {
+        path:"/sellComplete",
+        component:sellComplete,
+        exact:false,
+        isChecked:false,
+        nameStr:"热销榜",
+        meta:{
+            isfooter:false
         }
     },
 ]
