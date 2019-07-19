@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    font-size:16px;
+}
+
+#free{
+    box-sizing:border-box;
+    padding:10px 15px;
+    margin:50px 0;
+}
+#free div div h3{
+    display:inline-block;
+    float:left;
+}
+#free div div span{
+    width:60px;
+    float:right;
+    font-size:16px;
+    line-height:21px;
+}
+.bookList{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.booklist{
+
+}
+.book{
+    width:95px;
+}
+._book{
+    width:100%;
+    height:134px;
+    margin:10px 0;
+}
+._book>img{
+    width:95px;
+    height:134px;
+    float:left;
+    margin-right:10px;
+}
+._book>p{
+    float:left;
+    display:block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+._book .intro{
+    width:230px;
+    height:42px;
+    display:inline-block;
+    font-weight:normal;
+    color:#999;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+._book article{
+    margin-top:10px;
+}
+._book article img{
+    width:17px;
+    height:17px;
+    margin-right:5px;
+    border-radius:50%;
+    vertical-align: middle;
+    float:left;
+}
+._book article b{
+    font-size:14px;
+    color:#999;
+    float:left;
+}
+._book article a{
+    display: inline-block;
+    border:1px solid #999;
+    float:right;
+    font-size:14px;
+    color:#999;
+}
+.book>img{
+    width:95px;
+    height:134px;
+}
+.book p{
+    font-size: 14px;
+    color:#333;
+    width:95px;
+    margin:8px 0 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+}

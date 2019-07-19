@@ -1,0 +1,202 @@
+{"errorCode":null,
+  "fields":null,
+  "items":[
+    {
+      "templateType":1,
+      "jumpType":0,
+      "minVersionDesc":"V1.0.0",
+      "seqNo":1,
+      "sectionId":1000,
+      "specialList":null,
+      "title":"磨铁阅读平台-男生-免费",
+      "templateId":26,
+      "maxNum":null,
+      "jumpUrl":null,
+      "name":"精品免费",
+      "addressFunParam":null,
+      "id":114,
+      "addressParam":null,
+      "addressIdText":null,
+      "dataSourceList":[
+        {
+          "templateType":null,
+          "dataSouceId":902,
+          "gender":7,
+          "paging":false,
+          "genders":[1,2,3],
+          "templateId":null,
+          "type":1,
+          "limitFree":true,
+          "dataList":[
+            {
+              "type":1,
+              "imgUrl":"https://cdn.motieimg.com/book/0008/82858/1.jpg",
+              "startTime":"2019-07-17 12:00:00",
+              "endTime":"2019-07-19 11:59:59",
+              "statusDesc":"未开始",
+              "bookId":82858,
+              "limitFree":true,
+              "bookName":"最后一位守陵人",
+              "penName":"木子嗔",
+              "cpName":"磨铁",
+              "free":false,
+              "finished":true,
+              "introduction":"我本是一弃婴，自小无父无母，跟随爷爷，长大成人。那一天，村头意外挖出一口诡异的将军墓，不经意之间，让我陷入了一场生死困境，命悬一线。\r\n地下古墓，凶险万分，诡异而又莫测。无数扑朔迷离的骇然怪事，纷至沓来，而我在踏入其中的那一刻，已经踏上了一条地下不归之路。\r\n我叫张凡，本想平凡度过一生，但我真实的身份，却让我这一生，不再平凡。",
+              "category":"悬疑探险",
+              "categoryId":10000101,
+              "userImgUrl":"https://cdn.motieimg.com/people/authorIco.png",
+              "categories":"1,1000014,10000101"
+            },
+            {
+              "type":1,
+              "imgUrl":"https://cdn.motieimg.com/book/0010/103814/1.jpg",
+              "startTime":"2019-07-17 12:00:00",
+              "endTime":"2019-07-19 11:59:59",
+              "statusDesc":"未开始",
+              "bookId":103814,
+              "limitFree":true,
+              "bookName":"天师饶命",
+              "penName":"青槐",
+              "cpName":"磨铁",
+              "free":false,
+              "finished":true,
+              "introduction":"拥有天师系统，游走大江南北，岭南鬼王、蜀南兵王岭、湘北鬼婴、苏北旱魃这些，我都打不过……\nUFO、狗会说话、发现两米长人骨也请不要来找我，我只是天师。\n还有，貂蝉、李师师来人间？\n慢着，系统，这，关我屁事……",
+              "category":"异术超能",
+              "categoryId":1000061,
+              "userImgUrl":"https://cdn.motieimg.com/people/authorIco.png",
+              "categories":"1,1000010,1000061"
+            },
+            {
+              "type":1,
+              "imgUrl":"https://cdn.motieimg.com/book/0007/78281/1.jpg",
+              "startTime":"2019-07-17 12:00:00",
+              "endTime":"2019-07-19 11:59:59",
+              "statusDesc":"未开始",
+              "bookId":78281,
+              "limitFree":true,
+              "bookName":"天垂象2：接连不断诡故事",
+              "penName":"挥霍先生",
+              "cpName":"磨铁",
+              "free":false,
+              "finished":true,
+              "introduction":"处置赌鬼时发现的不知名的清朝泥尸是谁？ 黑龙潭中尚未处置的厉鬼又待如何？代表水爷的符号缘何重现江湖？皎熊命和水牢灾该如何规避？山中木屋旁的槐树之鬼能否安稳存在？乱葬岗中被踩坏的坟和黑龙山尽头的庞大土地庙是否有关系？\n",
+              "category":"悬疑探险",
+              "categoryId":10000101,
+              "userImgUrl":"https://cdn.motieimg.com/people/authorIco.png",
+              "categories":"1,1000014,10000101"
+            }
+          ],
+          "name":"移动站-磨铁阅读-男频-周三精品免费",
+          "startTime":null,
+          "endTime":null,"status":1
+        },
+        {
+          "templateType":null,
+          "dataSouceId":970,
+          "gender":7,
+          "paging":false,
+          "genders":[1,2,3],
+          "templateId":null,
+          "type":1,
+          "limitFree":true,
+          "dataList":[
+            {
+              "type":1,"imgUrl":"https://cdn.motieimg.com/book/0011/117027/1.jpg","startTime":"2019-07-12 12:00:00","endTime":"2019-07-15 11:59:59","statusDesc":"已结束","bookId":117027,"limitFree":true,"bookName":"都市大仙尊","penName":"小小财神","cpName":"磨铁","free":false,"finished":true,"introduction":"在历史的洪流之中，宛如过客一般存在了数万年的苏武，再度重临都市，捍卫至亲。","category":"异术超能","categoryId":1000061,"userImgUrl":"https://cdn.motieimg.com/people/authorIco.png","categories":"1,1000010,1000061"
+            },
+            {
+              "type":1,"imgUrl":"https://cdn.motieimg.com/book/0007/79287/2.jpg","startTime":"2019-07-12 12:00:00","endTime":"2019-07-15 11:59:59","statusDesc":"已结束","bookId":79287,"limitFree":true,"bookName":"玲珑","penName":"盗门九当家","cpName":"磨铁","free":false,"finished":true,"introduction":"     我盯着电脑监控屏幕，血不住地往头上涌。全身发毛，恐惧、惊悚和疑惑慢慢蔓延到全身！！\n　　因为我在监控视频中看到自己的女朋友趁我熟睡之时，正跪在床下面对着我……\n　　何妨步步皆殇，唯见君逆天下，笑魇似花。\n     \n","category":"悬疑探险","categoryId":10000101,"userImgUrl":"https://cdn.motieimg.com/people/0222/2225780/2.jpg","categories":"1,1000014,10000101"
+            },
+            {
+              "type":1,"imgUrl":"https://cdn.motieimg.com/book/0011/119710/1.jpg","startTime":"2019-07-12 12:00:00","endTime":"2019-07-15 11:59:59","statusDesc":"已结束","bookId":119710,"limitFree":true,"bookName":"我给阎王做直播","penName":"小泠","cpName":"磨铁","free":false,"finished":false,"introduction":"见过给鬼直播吗？没有？那就来我的直播间看看吧！这里你不但可以交到鬼友，还能顺手带个鬼媳妇回去。","category":"悬疑探险","categoryId":10000101,"userImgUrl":"https://cdn.motieimg.com/people/0552/5520325/1.jpg","categories":"1,1000014,10000101"
+            }
+          ],
+          "name":"移动站-磨铁阅读-男频-周五精品免费",
+          "startTime":null,
+          "endTime":null,
+          "status":1
+        },
+        {
+          "templateType":null,"dataSouceId":968,"gender":7,"paging":false,"genders":[1,2,3],"templateId":null,"type":1,"limitFree":true,
+          "dataList":[
+            {
+              "type":1,"imgUrl":"https://cdn.motieimg.com/book/0011/113417/2.jpg","startTime":"2019-07-15 12:00:00","endTime":"2019-07-17 11:59:59","statusDesc":"进行中","bookId":113417,"limitFree":true,"bookName":"地府快递员","penName":"通假字","cpName":"磨铁","free":false,"finished":false,"introduction":"明面儿上我是一名普普通通的快递员，开着满载包裹的电瓶车四处奔波，风里来雨里去。\n而这私底下，我依旧做着一份快递员的工作，但走的路却非比寻常，那是传说中阴间的路……","category":"异术超能","categoryId":1000061,"userImgUrl":"https://cdn.motieimg.com/people/0373/3739976/1.jpg","categories":"1,1000010,1000061"
+            },
+            {
+              "type":1,"imgUrl":"https://cdn.motieimg.com/book/0010/102637/2.jpg","startTime":"2019-07-15 12:00:00","endTime":"2019-07-17 11:59:59","statusDesc":"进行中","bookId":102637,"limitFree":true,"bookName":"最强导游","penName":"歪佬","cpName":"磨铁","free":false,"finished":true,"introduction":"我是一名导游，见过碰不到的人，也去过到不了的地方~\n","category":"异术超能","categoryId":1000061,"userImgUrl":"https://cdn.motieimg.com/people/2045/20454732/1.jpg","categories":"1,1000010,1000061"
+            },
+            {
+              "type":1,"imgUrl":"https://cdn.motieimg.com/book/0009/98087/4.jpg","startTime":"2019-07-15 12:00:00","endTime":"2019-07-17 11:59:59","statusDesc":"进行中","bookId":98087,"limitFree":true,"bookName":"六界第一群","penName":"苦小南","cpName":"磨铁","free":false,"finished":false,"introduction":"看似很平凡：“他是人界最后一位仙人。”\n看似没金钱：“他身价百亿。”\n看似没背景：“他是太上老君的徒弟，地府阎王、军区司令都要叫声南哥。”\n看似农民身：“他却是京都蒋家后人。”\n看似很低调：“他若狂起来，如神尊降世、所向无敌。”","category":"异术超能","categoryId":1000061,"userImgUrl":"https://cdn.motieimg.com/people/2068/20684318/5.jpg","categories":"1,1000010,1000061"
+            }
+          ],
+          "name":"移动站-磨铁阅读-男频-周一精品免费",
+          "startTime":null,
+          "endTime":null,
+          "status":1
+        }
+      ]
+    },
+    {
+      "templateType":1,"jumpType":0,"minVersionDesc":"V1.0.0","seqNo":2,"sectionId":1070,"specialList":null,"title":"磨铁阅读平台-男生-免费","templateId":40,"maxNum":null,"jumpUrl":null,"name":"免费新书","addressFunParam":null,"id":114,"addressParam":null,"addressIdText":null,
+      "dataSourceList":[
+        {
+          "templateType":null,"dataSouceId":730,"gender":7,"paging":false,"genders":[1,2,3],"templateId":null,"type":1,"limitFree":false,
+          "dataList":[
+            {
+              "type":1,"imgUrl":"https://cdn.motieimg.com/book/0014/149588/5.jpg","statusDesc":"进行中","bookId":149588,"limitFree":false,"bookName":"时空当铺","penName":"上乘","cpName":"磨铁","free":true,"finished":false,"introduction":"       欢迎来到时空当铺，我是这家当铺的老板，我叫邯郸。在这里，你可以得到你想拥有的一切，不过必须付出同等的代价。时空当铺，一经典当，永不赎回。但若知错能改，也是善莫大焉~\n","category":"异术超能","categoryId":1000061,"userImgUrl":"https://cdn.motieimg.com/people/2250/22506927/1.jpg","categories":"1,1000010,1000061"
+            },
+            {
+              "type":1,"imgUrl":"https://cdn.motieimg.com/book/0014/146960/1.jpg","statusDesc":"进行中","bookId":146960,"limitFree":false,"bookName":"我有一根金箍棒","penName":"流浪三界","cpName":"磨铁","free":true,"finished":false,"introduction":"”你人丑嘴笨，尖嘴猴腮，凭什么当明星主角？“\n”我有一根金箍棒啊。“\n”你无权无势，凭什么受人追捧，万人着迷？“\n”我有一根金箍棒啊。“\n”你一介凡人，凭什么与仙争锋，号令群魔？“\n”我有一根金箍棒啊。“\n”你书读得少，凭什么称圣，普渡众生？“\n”我有一根金箍棒和一颗不屈不挠的正义之心啊。“\n。。。。。。\n一个悲催的龙套演员意外获得至尊法器，觉醒血脉，修仙法，成大咖，立威名，登仙位，终成圣！","category":"现代修真","categoryId":1000081,"userImgUrl":"https://cdn.motieimg.com/people/2245/22457923/1.jpg","categories":"1,1000012,1000081"
+            },
+            {
+              "type":1,"imgUrl":"https://cdn.motieimg.com/book/0015/151414/3.jpg","statusDesc":"进行中","bookId":151414,"limitFree":false,"bookName":"禁入之地","penName":"仙仙","cpName":"醉唐","free":true,"finished":false,"introduction":"在那广袤无垠的赤土大地上，有一片古老而神秘的山林，相传，山中不仅有魔怪出没，还有各种超自然现象存在；几千年来，鲜少有人进出过；那座山，被称为‘困城之山’。然而，越是神秘的地方，越是会吸引人们的关注！\n几位同窗好友为了纪念毕业庆典，决定结伴前往困城之山，不料，刚刚踏入便出现了危难，一名男生为了救他爱慕的女生不幸坠入山崖失踪，女生为此陷入了深深的自责之中，三年来从未放弃寻找，只为兑现那句：“活要见人，死要见尸”的承诺。当他们第六次进入那座神秘山林时，却在无意中发现了里面惊天动地的秘密……","category":"异族恋情","categoryId":10000155,"userImgUrl":"https://cdn.motieimg.com/people/1952/19529784/8.jpg","categories":"2,1000022,10000155"
+            }
+          ],
+          "name":"移动站-磨铁阅读-男生-免费新书","startTime":null,"endTime":null,"status":1
+        }
+      ]
+    },
+    {
+      "templateType":1,"jumpType":0,"minVersionDesc":"V1.0.0","seqNo":3,"sectionId":1072,"specialList":null,"title":"磨铁阅读平台-男生-免费","templateId":26,"maxNum":null,"jumpUrl":null,"name":"热门免费","addressFunParam":null,"id":114,"addressParam":null,"addressIdText":null,
+      "dataSourceList":[
+        {
+          "templateType":null,"dataSouceId":898,"gender":7,"paging":false,"genders":[1,2,3],"templateId":null,"type":1,"limitFree":true,
+      "dataList":[
+        {
+          "type":1,"imgUrl":"https://cdn.motieimg.com/book/0010/106144/1.jpg","startTime":"2019-07-17 12:00:00","endTime":"2019-07-19 11:59:59","statusDesc":"未开始","bookId":106144,"limitFree":true,"bookName":"诛邪诡事","penName":"凌晨三点","cpName":"磨铁","free":false,"finished":false,"introduction":"我出生就邪祟缠身，苦厄万劫。逼的我爷爷愣是给我娶了一个女鬼做媳妇.......\n\n\n\n","category":"悬疑探险","categoryId":10000101,"userImgUrl":"https://cdn.motieimg.com/people/authorIco.png","categories":"1,1000014,10000101"
+        },
+        {
+          "type":1,"imgUrl":"https://cdn.motieimg.com/book/0011/117896/1.jpg","startTime":"2019-07-17 12:00:00","endTime":"2019-07-19 11:59:59","statusDesc":"未开始","bookId":117896,"limitFree":true,"bookName":"绝道神帝","penName":"邵俊杰","cpName":"磨铁","free":false,"finished":false,"introduction":"青言天尊，曾经叱咤风云，只可惜遭奸人而落陨。重生之后的青言天尊，摇身一变成为了秦家七长老之子—秦逸。起步于秦家，而无止于天地间。今日的重生，昔日的恩仇，一切清算。高幕天尊、傲龙天尊会是垫脚石，神帝之位必为我所夺。证道成帝，必有可为。\n青言天尊已死！\n我是秦逸！\n","category":"东方玄幻","categoryId":1000072,"userImgUrl":"https://cdn.motieimg.com/people/authorIco.png","categories":"1,1000011,1000072"
+        },
+        {
+          "type":1,"imgUrl":"https://cdn.motieimg.com/book/0014/146666/1.jpg","startTime":"2019-07-17 12:00:00","endTime":"2019-07-19 11:59:59","statusDesc":"未开始","bookId":146666,"limitFree":true,"bookName":"逆天龙帝","penName":"龙逆","cpName":"磨铁","free":false,"finished":true,"introduction":"龙逆洞房花烛夜被杀，杀他的竟是新妻！\n重生六十年前，弥补遗憾，诛杀小人！\n从此，逆天改命，重新回归残酷世界。\n龙逆两世为人，仅凭借一双慧眼，\n纵横星空，逆苍天，战九霄，凌万古，成无上霸业！","category":"异世大陆","categoryId":1000073,"userImgUrl":"https://cdn.motieimg.com/people/authorIco.png","categories":"1,1000011,1000073"
+        }
+      ],"name":"移动站-磨铁阅读-男频-周三热门免费","startTime":null,"endTime":null,"status":1},{"templateType":null,"dataSouceId":972,"gender":7,"paging":false,"genders":[1,2,3],"templateId":null,"type":1,"limitFree":true,
+      "dataList":[
+        {
+          "type":1,"imgUrl":"https://cdn.motieimg.com/book/0007/79936/1.jpg","startTime":"2019-07-12 12:00:00","endTime":"2019-07-15 11:59:59","statusDesc":"已结束","bookId":79936,"limitFree":true,"bookName":"破烂王","penName":"牛肉米粉","cpName":"磨铁","free":false,"finished":true,"introduction":"“就因为你是收破烂的，我才被人看不起，我恨你！”这句话是我对我爸说的。\r\n年少轻狂的我经历了怎样的青春？谁不想做一个让人敬仰的人呢！谁不想给家人带来荣耀呢！有谁天生注定是废品！！！","category":"异术超能","categoryId":1000061,"userImgUrl":"https://cdn.motieimg.com/people/authorIco.png","categories":"1,1000010,1000061"
+        },
+        {
+          "type":1,"imgUrl":"https://cdn.motieimg.com/book/0011/111015/1.jpg","startTime":"2019-07-12 12:00:00","endTime":"2019-07-15 11:59:59","statusDesc":"已结束","bookId":111015,"limitFree":true,"bookName":"我为人类谋长生","penName":"可乐先生","cpName":"磨铁","free":false,"finished":true,"introduction":"罗森做了一个梦，至此，人类开启了一个全新的时代，名为威慑纪元。\n罗森，一个人，对全人类的威慑。\n若我光明，则这个世界不堕黑暗。\n若我长生，则人类文明永世不朽。\n","category":"异术超能","categoryId":1000061,"userImgUrl":"https://cdn.motieimg.com/people/authorIco.png","categories":"1,1000010,1000061"
+        },
+        {
+          "type":1,"imgUrl":"https://cdn.motieimg.com/book/0007/70501/4.jpg","startTime":"2019-07-12 12:00:00","endTime":"2019-07-15 11:59:59","statusDesc":"已结束","bookId":70501,"limitFree":true,"bookName":"大棺人","penName":"姓易的","cpName":"磨铁","free":false,"finished":true,"introduction":"自从我把房子租给了一个诡异的女人，那些常人难以想象到的麻烦，就接连不断的找上了我........\n\n“说书唱戏劝人方，三条大道走中央，善恶到头终有报，人间正道是沧桑。”\n\n从古至今，打那些说书人嘴里蹦出来的故事，十有八九都是在引人向善，而不是教人误走歧途。\n\n我要说的故事也是如此。\n\n不过在我看来，这不像是在说活人的故事，而更像是一个给“鬼”洗白的故事。\n\n相信我。\n\n其实鬼这东西一点都不可怕。\n\n可怕的，永远是人心。","category":"悬疑探险","categoryId":10000101,"userImgUrl":"https://cdn.motieimg.com/people/0175/1755759/3.jpg","categories":"1,1000014,10000101"
+        }
+      ],"name":"移动站-磨铁阅读-男频-周五热门免费","startTime":null,"endTime":null,"status":1},
+      {
+        "templateType":null,"dataSouceId":974,"gender":7,"paging":false,"genders":[1,2,3],"templateId":null,"type":1,"limitFree":true,
+        "dataList":[
+          {
+            "type":1,"imgUrl":"https://cdn.motieimg.com/book/0010/105549/1.jpg","startTime":"2019-07-15 12:00:00","endTime":"2019-07-17 11:59:59","statusDesc":"进行中","bookId":105549,"limitFree":true,"bookName":"极品捉鬼学生","penName":"蠢萌的玉米","cpName":"磨铁","free":false,"finished":true,"introduction":"天师捉鬼系统改变了胡小二的屌丝人生，各种任务蜂拥而至，保护校花，帮助女老师，协助女警花，拯救女白领，攻略女董事长……","category":"异术超能","categoryId":1000061,"userImgUrl":"https://cdn.motieimg.com/people/authorIco.png","categories":"1,1000010,1000061"
+          },
+          {
+            "type":1,"imgUrl":"https://cdn.motieimg.com/book/0008/80170/1.jpg","startTime":"2019-07-15 12:00:00","endTime":"2019-07-17 11:59:59","statusDesc":"进行中","bookId":80170,"limitFree":true,"bookName":"佛牌秘闻录","penName":"酒中小仙","cpName":"磨铁","free":false,"finished":true,"introduction":"    叮铃铃……\n    深夜，我家书房电话铃响，新丰市重案二组组长东方冰打来电话，语气焦急异常。她告诉我，我就是下一个将要被杀的目标。\n    我一下懵了，听她解释之后，我知道，要杀我的凶手，此时正在我家大厅里！\n    小心地拉开书房门，张眼往客厅里一望，我全身的汗毛不禁根根竖了起来，心，仿佛就要跳出胸膛……\n","category":"悬疑探险","categoryId":10000101,"userImgUrl":"https://cdn.motieimg.com/people/authorIco.png","categories":"1,1000014,10000101"
+          },
+          {
+            "type":1,"imgUrl":"https://cdn.motieimg.com/book/0011/112223/1.jpg","startTime":"2019-07-15 12:00:00","endTime":"2019-07-17 11:59:59","statusDesc":"进行中","bookId":112223,"limitFree":true,"bookName":"校园妖孽高手","penName":"夜醉","cpName":"磨铁","free":false,"finished":true,"introduction":"妖孽兵王回归都市，奉命保护双胞胎姐妹花。\n姐姐冷如冰山，妹妹烈火如歌。\n一大一小冰火两重天，还有美女老师可以撩。","category":"异术超能","categoryId":1000061,"userImgUrl":"https://cdn.motieimg.com/people/authorIco.png","categories":"1,1000010,1000061"
+          }
+        ],
+        "name":"移动站-磨铁阅读-男频-周一热门免费","startTime":null,"endTime":null,"status":1
+      }
+    ]
+    }
+  ],"msg":null,"status":200}

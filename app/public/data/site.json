@@ -1,0 +1,87 @@
+{
+  "errorCode": null,
+  "fields": null,
+  "items": [
+    {
+      "icon": 24,
+      "id": 99,
+      "introduction": "磨铁旗下网站综合站，汇聚旗下所有小说",
+      "qrcodeIcon": 16,
+      "qrcodeIconUrl": "https://cdn.motieimg.com/web/site/barcode/99d24.jpg",
+      "qrcodeName": "书友小站",
+      "recommendBookUrl": "http://www.motie.com/chapter/117976/4194892",
+      "recommendContent": "陆轻风在陆归南十八岁的成人礼上送了他一个吻，谁知本是一次无心的恶作剧，却让陆归南“离家出走”八年。",
+      "seqNo": 1,
+      //图片
+      "siteIconUrl": "https://cdn.motieimg.com/web/site/logo/99d24.jpg",
+      "siteName": "磨铁阅读平台"
+    },
+    {
+      "icon": 11,
+      "id": 1,
+      "introduction": "主打男频小说，热门都市、灵异、玄幻",
+      "qrcodeIcon": 10,
+      "qrcodeIconUrl": "https://cdn.motieimg.com/web/site/barcode/1d11.jpg",
+      "qrcodeName": "今日小说",
+      "recommendBookUrl": "http://web-wechat.my.motie.com/detail/111087",
+      "recommendContent": "高门贵女成为龙王妻，从此走上了一条不同于常人的道路······",
+      "seqNo": 2,
+      "siteIconUrl": "https://cdn.motieimg.com/web/site/logo/1d11.jpg",
+      "siteName": "磨铁中文网"
+    },
+    {
+      "icon": 5,
+      "id": 2,
+      "introduction": "知性女生阅读平台，力推当下最时尚的婚恋",
+      "qrcodeIcon": 5,
+      "qrcodeIconUrl": "https://cdn.motieimg.com/web/site/barcode/2d5.jpg",
+      "qrcodeName": "墨墨言情网",
+      "recommendBookUrl": "http://web-wechat.my.motie.com/detail/122010",
+      "recommendContent": "重回九十年代，踹掉渣前夫，迎接新男神",
+      "seqNo": 3,
+      "siteIconUrl": "https://cdn.motieimg.com/web/site/logo/2d5.jpg",
+      "siteName": "墨墨言情网"
+    },
+    {
+      "icon": 2,
+      "id": 5,
+      "introduction": "新生代女性文学基地，提供言情、纯爱类作品",
+      "qrcodeIcon": 2,
+      "qrcodeIconUrl": "https://cdn.motieimg.com/web/site/barcode/5d2.jpg",
+      "qrcodeName": "锦文小说",
+      "recommendBookUrl": "http://web-wechat.my.motie.com/detail/118114",
+      "recommendContent": "奉旨跋扈：陛下，贵妃又在欺负人了",
+      "seqNo": 4,
+      "siteIconUrl": "https://cdn.motieimg.com/web/site/logo/5d2.jpg",
+      "siteName": "锦文小说网"
+    },
+    {
+      "icon": 5,
+      "id": 4,
+      "introduction": "青春女生阅读品牌，主打品类有现代言情",
+      "qrcodeIcon": 5,
+      "qrcodeIconUrl": "https://cdn.motieimg.com/web/site/barcode/4d5.jpg",
+      "qrcodeName": "逸云书院",
+      "recommendBookUrl": "http://web-wechat.my.motie.com/chapter/4029379",
+      "recommendContent": "离婚两年，前夫在朋友圈秀恩爱，才知道那个女人居然是……",
+      "seqNo": 5,
+      "siteIconUrl": "https://cdn.motieimg.com/web/site/logo/4d5.jpg",
+      "siteName": "逸云书院"
+    },
+    {
+      "icon": 5,
+      "id": 6,
+      "introduction": "全类型原创文学，开发有新意、有创意的作品",
+      "qrcodeIcon": 1,
+      "qrcodeIconUrl": "https://cdn.motieimg.com/web/site/barcode/6d5.jpg",
+      "qrcodeName": "醉唐中文网",
+      "recommendBookUrl": "http://web-wechat.my.motie.com/detail/102702",
+      "recommendContent": "精品阅读-醉唐中文网-测试",
+      "seqNo": 6,
+      "siteIconUrl": "https://cdn.motieimg.com/web/site/logo/6d5.jpg",
+      "siteName": "醉唐中文网"
+    }
+  ],
+  "msg": null,
+  "status": 200
+}

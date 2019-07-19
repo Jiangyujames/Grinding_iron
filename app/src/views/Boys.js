@@ -17,6 +17,7 @@ import Publish from "../views/Publish";
 import router from "../router/headerr.js";
 import Header from "../components/Header"
 import axios from "axios";
+import Brands from './Brands'
 
 class Boys extends React.Component{
     constructor (){
@@ -79,13 +80,13 @@ class Boys extends React.Component{
                     </div>
                     <p className="kong"></p>
                     <div className="navigation">
-
-                            <NavLink className="navviga" to={"/Type/1/1/10/10"}><img src={require('../assets/img/lu4.png')}/>分类</NavLink>
-                            <NavLink className="navviga" to={"/Rank/rankBoys/sellWell"} ><img src={require('../assets/img/lu3.png')}/>排行</NavLink>
-                            <NavLink className="navviga" to={"/Complete"}><img src={require('../assets/img/lu2.png')}/>全本</NavLink>
-                            <NavLink className="navviga" to={"/Free"}><img src={require('../assets/img/lu1.png')}/>免费</NavLink>
-
-                    </div>
+                        <Router>
+                            <NavLink className="navviga" to={"/Type"} onClick={()=>{this.props.history.push("/Type")}}><img src={require('../assets/img/lu4.png')}/>分类</NavLink>
+                            <NavLink className="navviga" to={"/Rank"} onClick={()=>{this.props.history.push("/Rank")}}><img src={require('../assets/img/lu3.png')}/>排行</NavLink>
+                            <NavLink className="navviga" to={"/Complete"} onClick={()=>{this.props.history.push("/Complete")}} ><img src={require('../assets/img/lu2.png')}/>全本</NavLink>
+                            <NavLink className="navviga" to={"/Free"} onClick={()=>{this.props.history.push("/Free")}}><img src={require('../assets/img/lu1.png')}/>免费</NavLink>
+                        </Router>
+                    </div>x
                     <p className="kong"></p>
                     <div className="Recommend">
                         <h3 className="hh"><em></em>主编力荐</h3>
@@ -120,8 +121,10 @@ class Boys extends React.Component{
                             })
                         }
                     </div>
+                    <Brands></Brands>
                     <p className="kong"></p>
                 </div>
+
             </div>
 
         )
