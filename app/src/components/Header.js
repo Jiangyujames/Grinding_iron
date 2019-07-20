@@ -17,7 +17,7 @@ export default class Header extends React.Component{
                             {
                                 router.map((v,i)=>{
                                     return (
-                                        <NavLink key={i} exact={v.exact} className="navv" to={v.path}>{v.nameStr}</NavLink>
+                                        <NavLink key={i} exact={v.exact} activeClassName="navvv" className="navv" to={v.path}>{v.nameStr}</NavLink>
                                     )
                                 })
                             }

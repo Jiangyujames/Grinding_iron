@@ -80,12 +80,12 @@ class Boys extends React.Component{
                     </div>
                     <p className="kong"></p>
                     <div className="navigation">
-                        <Router>
-                            <NavLink className="navviga" to={"/Type"} onClick={()=>{this.props.history.push("/Type")}}><img src={require('../assets/img/lu4.png')}/>分类</NavLink>
-                            <NavLink className="navviga" to={"/Rank"} onClick={()=>{this.props.history.push("/Rank")}}><img src={require('../assets/img/lu3.png')}/>排行</NavLink>
-                            <NavLink className="navviga" to={"/Complete"} onClick={()=>{this.props.history.push("/Complete")}} ><img src={require('../assets/img/lu2.png')}/>全本</NavLink>
-                            <NavLink className="navviga" to={"/Free"} onClick={()=>{this.props.history.push("/Free")}}><img src={require('../assets/img/lu1.png')}/>免费</NavLink>
-                        </Router>
+
+                            <NavLink className="navviga" to={"/Type/1/1/10/10"}><img src={require('../assets/img/lu4.png')}/>分类</NavLink>
+                            <NavLink className="navviga" to={"/Rank"}><img src={require('../assets/img/lu3.png')}/>排行</NavLink>
+                            <NavLink className="navviga" to={"/Complete"} ><img src={require('../assets/img/lu2.png')}/>全本</NavLink>
+                            <NavLink className="navviga" to={"/Free"}><img src={require('../assets/img/lu1.png')}/>免费</NavLink>
+
                     </div>x
                     <p className="kong"></p>
                     <div className="Recommend">
