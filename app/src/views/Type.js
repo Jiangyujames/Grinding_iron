@@ -120,7 +120,7 @@ class Type extends React.Component{
                     {
                         this.props.typeList.map((v)=>{
                             return(
-                                <div className={"context-item"} key={v.bookId}>
+                                <div className={"context-item"} key={v.bookId} onClick={()=>this.props.history.push("/detali/"+v.bookId)}>
                                     <div className={"imggg"}>
                                         <img src={v.bookIconUrl} alt=""/>
                                     </div>

@@ -25,6 +25,7 @@ import wealth from "../views/wealth.js"
 import review from "../views/review.js"
 import sellGirl from "../views/sellGirl.js"
 import sellComplete from "../views/sellComplete.js"
+import Details from "../views/Details.js"
 
 
 export default [
@@ -310,4 +311,14 @@ export default [
             isfooter:false
         }
     },
+	 {
+	    path:"/detali/:id",
+	    component:Details,
+	    exact:false,
+	    isChecked:false,
+	    nameStr:"热销榜",
+	    meta:{
+	        isfooter:false
+	    }
+	},
 ]
