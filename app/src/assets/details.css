@@ -1,6 +1,23 @@
 
 .detals{
+	 
 	  padding-left: 1.2rem;
+	  margin-right: 1rem;
+}
+.bg  {
+		/* width:100%;
+		background-repeat:no-repeat;
+		background-size:cover;
+		-webkit-filter:blur(15px);
+		-moz-filter:blur(15px);
+		-o-filter:blur(15px);
+		-ms-filter:blur(15px);
+		filter:blur(15px); */
+	
+		
+		/* position:absolute;
+		left:0; */
+	
 }
 .deta{
 	overflow: hidden;
@@ -25,11 +42,111 @@
 	 font-size:2.2rem;
 	 font-weight: 200;
     margin-top: -.16rem;
-	/* -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    -webkit-transform-origin: center;
-    transform-origin: center; */
     width:2.02rem;
     height:0.72rem;
   /*  border-bottom: 1px solid #666; */
+}
+.infot{
+	display: flex;
+	padding-top:.2rem;
+	/* justify-content:center; */
+	
+		}
+.inforight{
+		/* float:left; */
+		padding-left:1rem;
+	
+	}
+.inforight .bname{
+	font-size:1.2rem;
+    color: #333;
+    height: 1.5rem;
+	font-weight:200;
+	}
+.inforight  p{
+	 font-size: 1rem;
+      color: #999;
+      height: 1.21333rem;
+	  padding:.1rem;
+
+	}
+.btns{
+	display: flex;
+	justify-content:space-around;
+
+}
+.add{
+	 width:40rem;
+	height:2.7rem;
+	color:#ee5048;
+	font-size: 1rem;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: .36667rem;
+	border: 1px solid #dd4a43;
+	background-color:#FFFFFF;
+}
+.read{
+    width:40rem;
+   height:2.7rem;
+   color:#FFFFFF;
+   font-size: 1rem;
+   border: 1px solid rgba(0,0,0,.2);
+   border-radius: .36667rem;
+   border: 1px solid #dd4a43;
+   background-color:#ee5048;
+   margin-left:2rem;
+}
+.dashang{
+	display: flex;
+	height: 3rem;
+	line-height:3rem;
+	justify-content:space-around;
+	
+	
+}
+.mulu{
+	margin-top: 1rem;
+	display: flex;
+	height: 3rem;
+	/* line-height:3rem; */
+	justify-content:left;
+	
+	
+}
+.more{
+	display: flex;
+	height: 3rem;
+	line-height:3rem;
+	justify-content:center;
+	
+	
+}
+.people{
+	padding:.3rem;
+}
+.people p{
+	text-align:center;
+    font-size: .77333rem;
+    height: .8rem;
+    line-height: .75333rem;
+    overflow: hidden;
+    vertical-align: middle;
+    color: #333;
+}
+.introduce{
+	ine-height: 1.21333rem;
+    font-size: .8333rem;
+    color: #666;
+	padding: 2rem 0;
+	line-height: 1.4rem;
+	border-bottom: 1px solid #666;
+	
+}
+em{
+	  display: inline-block;
+	width: .2rem;
+	height: .9333rem;
+	border-radius: .26667rem;
+	margin-right: .5667rem;
+	background: red;
 }
