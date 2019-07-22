@@ -10,6 +10,7 @@
     "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "reactjs-iscroll": "^0.3.2",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
     "swiper": "^4.5.0"

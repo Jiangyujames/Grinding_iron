@@ -82,7 +82,7 @@ class Boys extends React.Component{
                     <div className="navigation">
 
                             <NavLink className="navviga" to={"/Type/1/1/10/10"}><img src={require('../assets/img/lu4.png')}/>分类</NavLink>
-                            <NavLink className="navviga" to={"/Rank"}><img src={require('../assets/img/lu3.png')}/>排行</NavLink>
+                            <NavLink className="navviga" to={"/Rank/rankBoys/sellWell"}><img src={require('../assets/img/lu3.png')}/>排行</NavLink>
                             <NavLink className="navviga" to={"/Complete"} ><img src={require('../assets/img/lu2.png')}/>全本</NavLink>
                             <NavLink className="navviga" to={"/Free"}><img src={require('../assets/img/lu1.png')}/>免费</NavLink>
 
@@ -93,7 +93,7 @@ class Boys extends React.Component{
                         {
                             this.state.bookList.map(v=>{
                                 return(
-                                    <div key={v.bookId} onClick={()=>this.props.history.push("/detali/"+v.bookId)}>
+                                    <div key={v.bookId}>
                                         <li><img src={v.bookIconUrl} alt=""/>
                                             <p>{v.authorName}</p></li>
                                     </div>
@@ -107,7 +107,7 @@ class Boys extends React.Component{
                         {
                             this.state.bookType.map(v=>{
                                 return(
-                                    <div key={v.bookId} onClick={()=>this.props.history.push("/detali/"+v.bookId)}>
+                                    <div key={v.bookId}>
                                         <li><img src={v.bookIconUrl} alt=""/>
                                             <div><i>{v.authorName}</i>
                                                 <span>{v.introduce}</span>

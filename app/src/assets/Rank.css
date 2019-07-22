@@ -1,29 +1,31 @@
+
 *{
     margin: 0;
     padding: 0;
 }
+html{
+    /*font-size: 26.7vw;*/
+}
 .leftRouter{
-    /*width:68px;*/
     background: #eee;
-    padding: 17px 15px;
+    padding: 1rem .9rem;
     box-sizing: border-box;
-    line-height: 50px;
-    border:1px solid #ddd;
+    line-height: 3.3rem;
+    border:0.01rem solid #ddd;
     color: #000;
     text-decoration: none;
 }
 .leftRouter-active{
-    /*width:68px;*/
     background: #fff;
-    padding: 17px 15px;
+    padding: 1rem .9rem;
     box-sizing: border-box;
-    line-height: 50px;
-    border:1px solid #ddd;
+    line-height: 3.3rem;
+    border:0.01rem solid #ddd;
     color: #000;
     text-decoration: none;
 }
 .route-content{
-    height: 140px;
+    height: 8rem;
     text-align: center;
     box-sizing: border-box;
     border-bottom: 1px solid #ddd;
@@ -31,48 +33,48 @@
 .route-content img{
     width:30%;
     float: left;
-    height: 120px;
-    margin-top: 10px;
-    margin-right: 10px;
+    height: 7rem;
+    margin-top: .5rem;
+    margin-right: .7rem;
 }
 .route-content-r{
     width:65%;
     float: left;
-    height: 120px;
-    margin-top: 10px;
+    height:  5.5rem;
+    margin-top: .5rem;
 }
 .route-content-r h3{
     color: #333;
     margin: 0;
     padding: 0;
-    line-height: 20px;
-    font-size: 16px;
+    line-height: 1.2rem;
+    font-size: 1rem;
 }
 .route-content-r p{
-    line-height: 20px;
+    line-height: 1.2rem;
     margin: 0;
     width:90%;
-    height:60px;
+    height:3.7rem;
     /*white-space: nowrap;*/
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .route-left{
-    width: 90px;
+    width: .9rem;
     float: left;
 }
 .author-rank{
-    height: 20px;
+    height: 1.2rem;
     display: block;
-    margin-top: 20px;
+    margin-top: 1.2rem;
     padding: 0;
     vertical-align: middle;
     text-align: center;
 }
 .author-rank img{
-    width:17px;
-    height: 17px;
+    width:1.1rem;
+    height: 1.1rem;
     border-radius: 50%;
     float: left;
     vertical-align: middle;
@@ -80,17 +82,17 @@
     margin: 0;
 }
 .author-rank strong{
-    line-height: 20px;
+    line-height: 1rem;
     font-weight: normal;
     float: left;
     font-style: normal;
-    font-size:14px;
-    padding-left: 10px;
+    font-size:.9rem;
+    padding-left: .3rem;
 }
 .sexRank{
     width: 100%;
-    height: 48px;
-    line-height: 48px;
+    height: 3rem;
+    line-height: 3rem;
     text-decoration: none;
     /*display: flex;*/
     /*justify-content: space-around;*/
@@ -99,9 +101,9 @@
 .sexInput{
     border:none;
     background: #fff;
-    font-size: 24px;
-    margin-right: 50px;
-    margin-left: 20px;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+    margin-left: 2rem;
 }
 
 

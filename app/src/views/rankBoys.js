@@ -22,7 +22,7 @@ class rankBoys extends React.Component{
         return(
             <div>
                 <Router style={{overflow:"hidden"}}>
-                    <div style={{width:"23%",height:"100%",float:"left"}}>
+                    <div style={{width:"25%",height:"100%",float:"left"}}>
                         <NavLink className="leftRouter" activeClassName="leftRouter-active" exact to={"/Rank/rankBoys/sellWell"}>热销榜</NavLink>
                         <NavLink className="leftRouter" activeClassName="leftRouter-active" to={"/Rank/rankBoys/click"}>点击榜</NavLink>
                         <NavLink className="leftRouter" activeClassName="leftRouter-active" to={"/Rank/rankBoys/reward"}>打赏榜</NavLink>

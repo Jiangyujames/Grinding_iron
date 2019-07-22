@@ -23,7 +23,7 @@ class rankCompelete extends React.Component{
         return(
             <div>
                 <Router style={{overflow:"hidden"}}>
-                    <div style={{width:"23%",height:"100%",float:"left"}}>
+                    <div style={{width:"25%",height:"100%",float:"left"}}>
                         <NavLink className="leftRouter" activeClassName="leftRouter-active" exact to={"/Rank/rankCompelete/sellComplete"}>热销榜</NavLink>
                         <NavLink className="leftRouter" activeClassName="leftRouter-active" to={"/Rank/rankCompelete/click"}>点击榜</NavLink>
                         <NavLink className="leftRouter" activeClassName="leftRouter-active" to={"/Rank/rankCompelete/reward"}>打赏榜</NavLink>

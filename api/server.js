@@ -5,12 +5,7 @@ const bodyparse=require("body-parser");
 const {sendCode}=require("./module/sendCode");
 const app=express();
 app.use(bodyparse.json())
-app.all("*",function(req,res,next){
-    res.header("Access-Control-Allow-Origin","*");
-    res.header("Access-Control-Allow-Headers","content-type");
-    res.header("Access-Control-Allow-Methods","DELETE,PUT");
-    next()
-});
+
 //登陆
 app.post("/login",function(req,res){
     /*
@@ -128,6 +123,45 @@ app.get("/sendCode",function(req,res){// 发送验证码
     //console.log(phoneId)
 
 });
+//加入书架
+app.post("/addBooks",function(req,res){
+    db.insertOne("bookList",{
+        imgUrl:req.body.imgUrl,
+        bookName:req.body.bookName,
+        addTime:Date.now()
+    },function(err,result){
+        res.json({
+            ok:1,
+            msg:"加入书架成功！"
+        })
+    })
+})
+//获取书架内容
+app.get("/getBookList",function(req,res){
+    db.count("bookList",{},function(err,count){
+        db.find("bookList",{
+            sortObj:{
+                addTime:-1
+            }
+        },function(err,bookList){
+            res.json({
+                ok:1,
+                bookList,
+                count
+            })
+        })
+    })
+
+})
+//删除书架内容
+app.delete("/deleteBook",function(req,res){
+    db.deleteOneById("bookList",req.query._id,function(err,result){
+        res.json({
+            ok:1,
+            msg:"成功删除此书"
+        })
+    })
+})
 app.listen(80,function(){
     console.log("success222")
 })

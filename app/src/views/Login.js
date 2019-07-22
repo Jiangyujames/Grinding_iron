@@ -7,7 +7,7 @@ import {withRouter} from 'react-router-dom'
 class Login extends React.Component{
     sendCode(e){
         if(this.refs.userPhone.value){
-            axios.get("http://127.0.0.1/sendCode",{
+            axios.get("/api/sendCode",{
                 params:{
                     phoneId:this.refs.userPhone.value
                 }
@@ -22,7 +22,7 @@ class Login extends React.Component{
     sendlogin(e){
         //console.log(888888)
         console.log(this.props)
-        axios.post("http://127.0.0.1/login",{
+        axios.post("/api/login",{
             phoneId:this.refs.userPhone.value,
             code:this.refs.codes.value
         }).then(({data})=>{

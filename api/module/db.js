@@ -7,7 +7,7 @@ function _connect(cb) {
             console.log("网络连接错误");
         else{
             console.log("成功");
-            const db = client.db("ele");
+            const db = client.db("motie");
             cb(db)
         }
     })
