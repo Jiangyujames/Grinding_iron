@@ -8,13 +8,14 @@ class Detail extends React.Component{
     constructor(props) {
         super(props);
         console.log(this.props.match.params.id);
+		
         this.state = {
             bookInfo:{},
             isdisabled:false
         }
     }
 
-    componentWillMount() {
+    componentDidMount(){
         axios.get("/motie/books/"+this.props.match.params.id+"/detail").then(({ data }) => {
             // console.log(9090909,data);
             this.setState({
@@ -58,6 +59,9 @@ class Detail extends React.Component{
                 <div className={"btns"}>
                     <input type="button"  className={"add"} value={"加入书架"}
                            disabled={this.state.isdisabled?true:false}    onClick={()=>{
+							   if(!localStorage.phoneId){
+							       this.props.history.push("/login");
+							   }
                         this.setState({
                             isdisabled:true
                         },()=>{
@@ -70,8 +74,8 @@ class Detail extends React.Component{
                 </div>
 
                 <div className={"dashang"}>
-                    <p><i></i><p>打赏</p></p>
-                    <p><i></i><p>推荐</p></p>
+                    <p><i></i>打赏</p>
+                    <p><i></i>推荐</p>
                 </div>
                 <hr/>
                 <div className={"introduce"}>{this.state.bookInfo.introduce}</div>

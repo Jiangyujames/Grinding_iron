@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    withRouter
+withRouter
 } from "react-router-dom"
 import Brands from './Brands';
 import '../assets/free.css'
@@ -130,4 +130,4 @@ class Free extends React.Component {
 
 }
 
-export default Free;
+export default  withRouter(Free);

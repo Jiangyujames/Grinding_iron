@@ -93,7 +93,7 @@ class Boys extends React.Component{
                         {
                             this.state.bookList.map(v=>{
                                 return(
-                                    <div key={v.bookId}>
+                                    <div key={v.bookId} onClick={()=>{this.props.history.push("/detali/"+v.bookId)}}>
                                         <li><img src={v.bookIconUrl} alt=""/>
                                             <p>{v.authorName}</p></li>
                                     </div>
@@ -107,7 +107,7 @@ class Boys extends React.Component{
                         {
                             this.state.bookType.map(v=>{
                                 return(
-                                    <div key={v.bookId}>
+                                    <div key={v.bookId} onClick={()=>{this.props.history.push("/detali/"+v.bookId)}}>
                                         <li><img src={v.bookIconUrl} alt=""/>
                                             <div><i>{v.authorName}</i>
                                                 <span>{v.introduce}</span>

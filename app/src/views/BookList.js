@@ -1,5 +1,5 @@
 import React from "react";
-import '../assets/bookList.css'
+import '../assets/BookList.css'
 import axios from "axios"
 import {connect} from 'react-redux'
 import {CHANGE_BOOKLIST} from '../store/actionType/TypeList'

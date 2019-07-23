@@ -1,0 +1,114 @@
+ .comebooks{
+	 padding: 1rem 1em;
+	   text-align: center;
+	   margin-top: 2.9rem;
+ }
+.comebooks h3{
+	text-align: left;
+    font-size: 1rem;
+   color: #333;
+   padding-right:1rem;
+
+ }
+ .bookslist{
+	 display:flex;
+	 justify-content:space-around;
+ }
+.comes{
+	display:flex;
+	justify-content:space-around;
+	text-overflow:hidden;
+}
+ .comebooks .comes img {
+	width: 6rem;
+    height: 6.4rem;
+    display: block;
+    border-radius: .26333rem;
+}
+ .comebooks .comes b{
+	
+	margin-bottom: .26333rem;
+	margin-top: .42333rem;
+	font-size: .9rem;
+	height: .8rem;
+	line-height: .9333rem;
+	font-weight:200;
+	
+	vertical-align: middle;
+	color: #333;
+	text-align: left;	
+}
+
+.booklist{
+	width: 100%;
+	margin: 0 auto;
+    margin-bottom: .5rem;
+    background: #fff;
+    overflow: auto;
+	
+}
+.booklist  h3{
+    font-size: 1rem;
+    color: #333;
+	padding-right:1rem;
+	padding-left: 1rem;
+	
+	
+}
+.booklist .books {
+	display:flex;
+	justify-content:flex-start;
+	margin: 1rem 1rem;
+    padding-bottom: 1rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #e5e5df;
+    overflow: hidden;
+}
+
+.booklist .books img {
+	width: 5rem;
+    height: 6.4rem;
+    display: block;
+    border-radius: .26333rem;
+}
+.booklist  .books span{
+	float: left;
+	padding-left:.5rem;
+	padding-right:1rem;
+}
+.booklist  .books span b{
+	 font-size: 1rem;
+	 color:#333;
+	overflow: hidden;
+	   font-weight:400;
+	text-overflow: ellipsis;	
+}
+   
+.booklist  .books span p{
+	color: #EFEFEF;
+	 margin-bottom: .3rem;
+    display: block;
+    font-weight:400;
+    line-height: 1.1rem;
+    height:2.3rem;
+    color: #999;
+     width: 200px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 2; 
+    overflow: hidden; 
+}
+em{
+	  display: inline-block;
+	width: .2rem;
+	height: .9333rem;
+	border-radius: .26667rem;
+	margin-right: .5667rem;
+	background: red;
+}

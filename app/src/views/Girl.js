@@ -4,7 +4,9 @@ import "../assets/home.css"
 import {
     BrowserRouter as Router,
     Route,
-    NavLink
+    NavLink,
+	withRouter
+	
 } from "react-router-dom";
 import "../assets/publishh/iconfont.css";
 import Swiper from 'swiper/dist/js/swiper.js';
@@ -90,7 +92,7 @@ class Girl extends React.Component{
                         {
                             this.state.bookList.map(v=>{
                                 return(
-                                    <div key={v.bookId}>
+                                    <div key={v.bookId} onClick={()=>{this.props.history.push("/detali/"+v.bookId)}}>
                                         <li><img src={v.bookIconUrl} alt=""/>
                                             <p>{v.authorName}</p></li>
                                     </div>
@@ -104,7 +106,7 @@ class Girl extends React.Component{
                         {
                             this.state.bookType.map(v=>{
                                 return(
-                                    <div key={v.bookId}>
+                                    <div key={v.bookId} onClick={()=>{this.props.history.push("/detali/"+v.bookId)}}>
                                         <li>
                                             <div><img src={v.bookIconUrl} alt=""/></div>
                                             <div><i>{v.authorName}</i>
@@ -133,4 +135,4 @@ class Girl extends React.Component{
     }
 }
 
-export default Girl;
+export default withRouter(Girl);
